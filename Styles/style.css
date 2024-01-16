@@ -24,6 +24,14 @@
     color: #727272;
 }
 
+.section_title {
+
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #131313;
+
+}
+
 /*--------------------------------------------------------------------------------------------  */
 
 
@@ -57,13 +65,7 @@ nav li a {
     text-decoration: none;
 }
 
-.nav_title {
 
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #131313;
-
-}
 
 /*--------------------------------------------------------------------------------------------  */
 
@@ -145,6 +147,53 @@ main{
     color: #FF900E;
     font-weight: 700;
 }
+
+/* Facts Section */
+
+.facts_card_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts_card_container  .card{
+
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+    margin-top: 5px;
+    
+}
+
+.facts_card_container .card_stats{
+
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.facts_card_container .card_title{
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+/* Sponchors Section ------------------------------------------------------------------------------------ */
+
+.sponchors_section{
+
+    text-align: center;
+}
+
+.sponchors_img{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+
 
 
 
@@ -239,6 +288,7 @@ main{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 1.5rem;
+            margin-top: 20px;
         }
 
         main{
@@ -246,6 +296,23 @@ main{
             margin:70px auto;
             max-width: 500px;
         
+        }
+
+        .facts_card_container{
+            flex-direction: column;
+        }
+
+        .facts_card_container{
+            flex-direction: column;
+        }
+    
+        .sponchors_img{
+    
+            flex-direction: column;
+            margin-top:50px ;
+            justify-content: space-evenly;
+            gap: 20px;
+            align-items: center;
         }
     
         
@@ -305,6 +372,23 @@ main{
     .teams_content{
         justify-content: center;
 
+    }
+
+    .facts_card_container{
+        flex-direction: column;
+    }
+
+    .sponchors_img{
+
+        flex-direction: column;
+        margin-top:50px ;
+        justify-content: space-evenly;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .sponchors_img img{
+        width: 220px;
     }
 
     
