@@ -193,6 +193,76 @@ main {
     margin-top: 50px;
 }
 
+/* Features section style ----------------------------------------------------------- */
+
+.features {
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+
+.features_content .card {
+
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.features .section_title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.ten_years_badge {
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.ten_years_badge h2 {
+
+    font-size: 4rem;
+    margin: 0;
+}
+
+.ten_years_badge p {
+
+    font-size: 1.5rem;
+
+}
+
+.features_img img {
+
+    height: 90%;
+    margin-left: 100px;
+}
+
+
+
+/* footer section style */
+
+footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+
+    text-align: center;
+    padding: 30px;
+
+    width: 1440px;
+
+    margin: 20px auto;
+    margin-bottom: 70px;
+
+   
+}
 
 
 
@@ -235,58 +305,6 @@ main {
     }
 
 
-}
-
-/* Features section style ----------------------------------------------------------- */
-
-.features {
-    margin-top: 130px;
-    display: flex;
-    gap: 100px;
-}
-
-
-.features_content .card {
-
-    padding: 30px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-}
-
-.features .section_title{
-    border-left: 5px solid #FF900E;
-    padding-left: 20px;
-}
-
-.ten_years_badge{
-    border-radius: 8px;
-    background-color: #FF900E;
-    color: #FFF;
-    width: 342px;
-    padding: 40px;
-    text-align: center;
-    position: relative;
-    bottom: 100px;
-}
-
-.ten_years_badge h2{
-
-    font-size: 4rem;
-    margin: 0;
-}
-
-.ten_years_badge p{
-
-    font-size: 1.5rem;
-
-}
-
-.features_img img{
-
-    height: 90%;
-    margin-left: 100px;
 }
 
 
@@ -367,6 +385,29 @@ main {
         align-items: center;
     }
 
+    
+    .features {
+        flex-direction: column;
+    }
+
+    .features_img img {
+
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ten_years_badge {
+
+        width: 200px;
+        padding: 10px;
+    }
+
+
+
+    footer{
+        width: 500px;
+    }
+
 
 
 
@@ -443,21 +484,27 @@ main {
         width: 220px;
     }
 
-    .features{
+    .features {
         flex-direction: column;
     }
 
-    .features_img img{
+    .features_img img {
 
         width: 100%;
         margin-left: 0;
     }
 
     .ten_years_badge {
-    
+
         width: 200px;
         padding: 10px;
     }
+
+   footer{
+
+    width: 300px;
+   }
+
 
 
 
